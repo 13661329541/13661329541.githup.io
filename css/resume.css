@@ -1,0 +1,232 @@
+@import "base.css";
+@import "index.css";
+@import "resume.css";
+.t {
+  overflow: hidden;
+  border-radius: 5px;
+}
+.t .top {
+  width: 100%;
+  height: 260px;
+  background-color: #ececec;
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+.t .top .top-left {
+  width: 180px;
+  height: 180px;
+  border: 1px solid #ccc;
+  float: left;
+  margin-right: 100px;
+}
+.t .top .top-right {
+  width: 650px;
+  height: 180px;
+  float: right;
+  text-align: left;
+}
+.t .top .top-right span {
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 5px;
+}
+.t .cation {
+  width: 100%;
+  height: 180px;
+  background-color: #FFFFFF;
+  padding: 40px 50px 25px;
+  box-sizing: border-box;
+  position: relative;
+}
+.t .cation .cation-top {
+  width: 200px;
+  height: 50px;
+  background-color: #4a4f5a;
+  border-radius: 5px;
+  color: #FFFFFF;
+  box-shadow: 3px 3px 4px 2px #C5C5C5;
+  text-align: center;
+  line-height: 50px;
+  font-family: "宋体";
+  font-weight: 800;
+  position: absolute;
+  left: 20px;
+  top: -25px;
+}
+.t .cation .cation-content {
+  width: 100%;
+  height: 100%;
+}
+.t .cation .cation-content li {
+  margin-top: 5px;
+}
+.t .skill {
+  width: 100%;
+  height: 400px;
+  background-color: #FFFFFF;
+  padding: 40px 50px 25px;
+  box-sizing: border-box;
+  position: relative;
+}
+.t .skill .skill-top {
+  width: 200px;
+  height: 50px;
+  background-color: #4a4f5a;
+  border-radius: 5px;
+  color: #FFFFFF;
+  box-shadow: 3px 3px 4px 2px #C5C5C5;
+  text-align: center;
+  line-height: 50px;
+  font-family: "宋体";
+  font-weight: 800;
+  position: absolute;
+  left: 20px;
+  top: -25px;
+}
+.t .skill .skill-content {
+  width: 100%;
+  height: 100%;
+  background-color: #00a0e9;
+}
+.t .skill .skill-content li {
+  margin-top: 8px;
+}
+.t .ence {
+  width: 100%;
+  height: 400px;
+  background-color: #FFFFFF;
+  padding: 40px 50px 25px;
+  box-sizing: border-box;
+  position: relative;
+}
+.t .ence .ence-top {
+  width: 200px;
+  height: 50px;
+  background-color: #4a4f5a;
+  border-radius: 5px;
+  color: #FFFFFF;
+  box-shadow: 3px 3px 4px 2px #C5C5C5;
+  text-align: center;
+  line-height: 50px;
+  font-family: "宋体";
+  font-weight: 800;
+  position: absolute;
+  left: 20px;
+  top: -25px;
+}
+.t .ence .ence-content {
+  width: 860px;
+  height: 340px;
+  overflow: hidden;
+  position: relative;
+  /*轮播图*/
+}
+.t .ence .ence-content .uu {
+  position: absolute;
+  width: 1500%;
+  top: 0;
+  left: 0;
+}
+.t .ence .ence-content .uu li {
+  width: 860px;
+  height: 340px;
+  background-color: #003eff;
+  float: left;
+}
+.t .ence .ence-content .uu .li2 {
+  background-color: #00a0e9;
+}
+.t .ence .ence-content .pages {
+  width: 100%;
+  height: 60px;
+  margin-top: -30px;
+  top: 50%;
+  left: 0;
+  position: absolute;
+  cursor: pointer;
+}
+.t .ence .ence-content .pages a {
+  width: 30px;
+  height: 60px;
+  display: block;
+  text-align: center;
+  line-height: 60px;
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.2);
+  font: 400 22px/60px "宋体";
+}
+.t .ence .ence-content .pages a:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.t .ence .ence-content .pages .arrow-left {
+  float: left;
+  margin-left: 20px;
+}
+.t .ence .ence-content .pages .arrow-right {
+  float: right;
+  margin-right: 20px;
+}
+.t .job {
+  width: 100%;
+  height: 300px;
+  background-color: #FFFFFF;
+  padding: 40px 50px 25px;
+  box-sizing: border-box;
+  position: relative;
+}
+.t .job .job-top {
+  width: 200px;
+  height: 50px;
+  background-color: #4a4f5a;
+  border-radius: 5px;
+  color: #FFFFFF;
+  box-shadow: 3px 3px 4px 2px #C5C5C5;
+  text-align: center;
+  line-height: 50px;
+  font-family: "宋体";
+  font-weight: 800;
+  position: absolute;
+  left: 20px;
+  top: -25px;
+}
+.t .job .job-content {
+  width: 100%;
+  height: 100%;
+  background-color: #00a0e9;
+}
+.t .job .job-content li {
+  margin-top: 8px;
+}
+.t .contact {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 40px 50px 25px;
+  box-sizing: border-box;
+  position: relative;
+}
+.t .contact .contact-top {
+  width: 200px;
+  height: 50px;
+  background-color: #4a4f5a;
+  border-radius: 5px;
+  color: #FFFFFF;
+  box-shadow: 3px 3px 4px 2px #C5C5C5;
+  text-align: center;
+  line-height: 50px;
+  font-family: "宋体";
+  font-weight: 800;
+  position: absolute;
+  left: 20px;
+  top: -25px;
+}
+.t .contact .contact-content {
+  width: 100%;
+  height: 100%;
+  background-color: #00a0e9;
+}
+.t .contact .contact-content span {
+  display: inline-block;
+  margin-top: 5px;
+}

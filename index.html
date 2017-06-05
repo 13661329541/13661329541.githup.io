@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport"
+          content="width=device-width, user-scala ble=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>主页</title>
+        <link rel="stylesheet" href="css/index.css"/>
+    <!--[if lt IE 9]-->
+    <!--<script src="js/html5shiv.js"></script>-->
+    <!--<script src="js/respond.min.js"></script>-->
+    <!--[endif]-->
+</head>
+<body>
+<div id="fullpage">
+    <div class="section first">
+        <div class="logo"></div>
+        <div class="text">
+            <span>态</span>
+            <span>度</span>
+            <span>决</span>
+            <span>定</span>
+            <span>一</span>
+            <span>切</span>
+            <span>前端小白鲨</span>
+            <p><a href="bio/myresume.html">进入>></a></p>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-1.12.1.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script>
+    $('#fullpage').fullpage({
+        sectionsColor : ['#403e49'],
+        afterLoad: function (anchorLink, index) {
+            $('.section').removeClass('current');
+            setTimeout(function () {
+                $('.section').eq(index - 1).addClass('current');
+            }, 100);
+        }
+    });
+</script>
+</body>
+</html>
